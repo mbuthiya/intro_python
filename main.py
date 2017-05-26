@@ -125,7 +125,11 @@ while (counter<10):
 print("You have finished counting")
 
 
+#for loops
+animals = ['cats','dogs','mice','hens']
 
+for element in animals:
+    print(element+" are cool")
 
 
 
