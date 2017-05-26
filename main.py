@@ -79,6 +79,14 @@ for key in my_dict:
 #items method returns the key value pair in a list
 for key, value in my_dict.items():
     print("The key is "+key+". The value is "+value)
+#sets are like lists but do not contain repeating values
+valid_set = {1,3,4,"Hello"}
+print(valid_set)
+
+#when you present a value to a set that is repeated multiple times only one is added to a set
+multiple_set = {1,2,3,4,3,2,2,2,2,2,2,"Hello world"}
+print(multiple_set)
+
 
 
 
