@@ -67,6 +67,20 @@ print(list_two)
 list_two.pop()
 print(list_two)
 
+#dictionaries matches items called keys to other items called values
+my_dict = {'someKey':'some value', 'Name':'James'}
+print(my_dict['someKey']);
+print(my_dict['Name'])
+
+#looping through dictionaries
+for key in my_dict:
+    print("The key is "+key)
+
+#items method returns the key value pair in a list
+for key, value in my_dict.items():
+    print("The key is "+key+". The value is "+value)
+
+
 
 
 
