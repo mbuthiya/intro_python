@@ -25,6 +25,18 @@ print(a)
 
 a-=2
 print(a)
+#booleans
+im_true = True
+im_false = False
+
+print(im_true)
+print(im_false)
+print(type(im_false))
+
+print(im_true and im_false)
+print(im_false or im_true)
+
+
 
 
         
