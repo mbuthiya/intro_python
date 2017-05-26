@@ -45,6 +45,27 @@ another_string = 'Hello, '+my_string+' '+my_other_string
 print(another_string)
 print(len(another_string))
 
+#pythons list
+
+my_list = ['a','b','c',1234]
+print(my_list)
+
+#picking items from list
+print(my_list[2])
+print(my_list[-1])
+
+#picking a range of items from a list
+list_two=my_list[2:]
+print(list_two)
+
+#adding items to a list 
+
+list_two.append("Hello")
+print(list_two)
+
+#removing items from a list
+list_two.pop()
+print(list_two)
 
 
 
