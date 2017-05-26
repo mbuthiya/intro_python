@@ -36,6 +36,16 @@ print(type(im_false))
 print(im_true and im_false)
 print(im_false or im_true)
 
+my_string = 'delta'
+my_other_string = 'analytics'
+
+print(my_string + " "+ my_other_string)
+
+another_string = 'Hello, '+my_string+' '+my_other_string
+print(another_string)
+print(len(another_string))
+
+
 
 
 
