@@ -87,7 +87,17 @@ print(valid_set)
 multiple_set = {1,2,3,4,3,2,2,2,2,2,2,"Hello world"}
 print(multiple_set)
 
+#functions
+def am_i_happy(happinessLevel):
+    if happinessLevel >= 10:
+        return "You are very happy"
+    elif happinessLevel >=5:
+        return "You are happy"
+    else:
+        return "You are not happy"
 
+print(am_i_happy(10))
+print(am_i_happy(1))
 
 
 
