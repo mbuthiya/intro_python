@@ -114,6 +114,17 @@ elif hungry and not sleepy:
 else:
     print("Go on with your day")
 
+#Loops
+##while loops
+counter = 0
+while (counter<10):
+    print("You have counted to ",counter)
+    counter+=1
+
+
+print("You have finished counting")
+
+
 
 
 
