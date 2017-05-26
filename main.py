@@ -99,6 +99,22 @@ def am_i_happy(happinessLevel):
 print(am_i_happy(10))
 print(am_i_happy(1))
 
+#control flow
+#If /elif/else
+
+sleepy = True
+hungry = False
+
+if sleepy and hungry:
+    print("Eat a snack and have a nap")
+elif sleepy and not hungry:
+    print("Take a Nap")
+elif hungry and not sleepy:
+    print("Eat a snack")
+else:
+    print("Go on with your day")
+
+
 
 
 
